@@ -58,6 +58,28 @@ header {
     cursor: pointer;
 }
 
+.navbar-default .navbar-nav > li > a::after {
+  color: white;
+  content: '';
+  display: block;
+  margin: auto;
+  height: 2.4px;
+  width: 0px;
+  background: transparent;
+  transition: width .5s ease, background-color .5s ease;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover::after {
+  width: 100%;
+  background-color: white;
+}
+
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: white;
+}
+
 #logo {
   display: inline-block;
   height: 200px;
