@@ -1,0 +1,74 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto:300,400,500';
+
+header, main {
+    margin: auto;
+ 
+}
+
+main {
+  padding: 16px 16px;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    color: #566b78;
+    margin: 0;
+    padding: 0;
+}
+
+header { 
+  background-color: black;
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('coverphoto.jpg');
+  background-position: center top;
+  background-size: cover;
+  max-width: none;
+  text-align: center;
+  line-height: 1.2;
+  height: 550px;
+  padding: 130px 32px;
+
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#logo {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+}
+
+header p {
+    color: white;
+    font-size: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+/* Use if there is still time */
+header a {
+  color: white;
+  font-size: 10px;
+  letter-spacing: 2px;
+  padding: 16px 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Use if there is still time */
+
+.project-content{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 4%;
+}
